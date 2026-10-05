@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivani Jain — Graphic Designer &amp; Visual Storyteller</title>
+
+<!-- Favicon Suite -->
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+<meta name="description" content="Shivani Jain's comic-styled graphic design portfolio — social media creatives, brand identity, marketing collateral, and visual storytelling based in Delhi, India.">
+
+<!-- Fonts: Anton for bold comic display headlines, Permanent Marker for hand-lettered speech-bubble text, Work Sans for clean readable body copy -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Comic chapter progress bar -->
+<div class="progress-rail" aria-hidden="true">
+  <div class="progress-fill" id="progressFill"></div>
+</div>
+
+<!-- Floating comic-tab navigation -->
+<nav class="comic-nav" id="comicNav" aria-label="Main Navigation">
+  <a href="#cover" class="nav-brand" aria-label="Shivani Jain Portfolio Home">
+    <img src="images/logo.png" alt="Shivani Jain" class="nav-logo-img">
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Open chapter menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-tabs" id="navTabs">
+    <li><a href="#about" class="nav-tab" data-tab="1"><em>01</em>About</a></li>
+    <li><a href="#skills" class="nav-tab" data-tab="2"><em>02</em>Toolkit</a></li>
+    <li><a href="#projects" class="nav-tab" data-tab="3"><em>03</em>Selected Work</a></li>
+    <li><a href="#timeline" class="nav-tab" data-tab="4"><em>04</em>Journey</a></li>
+    <li><a href="#resume" class="nav-tab" data-tab="5"><em>05</em>Resume</a></li>
+    <li><a href="#contact" class="nav-tab" data-tab="6"><em>06</em>Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- ============ COVER / LANDING ============ -->
+  <section class="cover" id="cover">
+    <div class="halftone-layer" aria-hidden="true"></div>
+    <div class="cover-decor cover-decor--burst" aria-hidden="true">
+      <svg viewBox="0 0 200 200"><polygon points="100,0 122,70 195,70 136,112 158,182 100,140 42,182 64,112 5,70 78,70" /></svg>
+    </div>
+    <div class="cover-decor cover-decor--ring" aria-hidden="true"></div>
+
+    <div class="cover-inner">
+      <p class="eyebrow-stamp">ISSUE №01 &mdash; CREATIVE ORIGIN</p>
+
+      <h1 class="cover-title">
+        <span class="line">MY</span>
+        <span class="line line--accent">CREATIVE</span>
+        <span class="line">STORY</span>
+      </h1>
+
+      <p class="cover-subtitle">&ldquo;I turn ideas into thoughtful visuals for brands, social media, and print.&rdquo;</p>
+
+      <div class="cover-meta">
+        <p class="cover-name">SHIVANI JAIN</p>
+        <p class="cover-role">Graphic Designer &middot; Visual Storyteller</p>
+      </div>
+
+      <div class="cover-cta-group">
+        <button class="btn-begin" id="beginReading">
+          Explore My Work <span class="arrow">&rarr;</span>
+        </button>
+        <a class="btn-begin btn-begin--outline" href="assets/Shivani_Jain_Graphic_Designer_Resume.docx" download="Shivani_Jain_Graphic_Designer_Resume.docx">
+          Download Resume (.DOCX) <span class="arrow">&darr;</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="cover-portrait">
+      <div class="portrait-frame">
+        <img 
+          src="images/shivani-anime-portrait.png" 
+          alt="Shivani Jain — Creative graphic designer with headphones portrait illustration" 
+          class="portrait-hero-img"
+          loading="eager"
+          width="600"
+          height="600"
+        >
+      </div>
+      <div class="portrait-ring" aria-hidden="true"></div>
+      <div class="bubble bubble--intro" id="introBubble">
+        <p>Hey! Welcome to my creative world.</p>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to Chapter 1">
+      <span>Scroll down</span>
+      <span class="scroll-arrow" aria-hidden="true">&darr;</span>
+    </a>
+  </section>
+
+  <!-- ============ CHAPTER 1 — ABOUT ME ============ -->
+  <section class="chapter chapter--beige" id="about">
+    <div class="halftone-layer halftone-layer--dark" aria-hidden="true"></div>
+
+    <div class="chapter-head">
+      <span class="chapter-stamp">01</span>
+      <h2 class="chapter-title">About Me</h2>
+      <p class="chapter-kicker">In which our visual creator is introduced.</p>
+    </div>
+
+    <div class="about-grid">
+
+      <div class="panel panel--tilt-l about-panel-photo">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <div class="about-photo-frame">
+          <img 
+            src="images/shivani-professional-portrait.png" 
+            alt="Shivani Jain — Graphic Designer based in Delhi, India" 
+            class="about-portrait-img"
+            loading="lazy"
+            width="600"
+            height="600"
+          >
+        </div>
+        <p class="panel-caption">Panel 1 &mdash; The Creative Eye</p>
+      </div>
+
+      <div class="panel panel--tilt-r about-panel-text">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <p class="drop-cap">
+          I’m Shivani Jain, a graphic designer based in Delhi with over a year of experience creating social media creatives, marketing materials, and brand identity assets. I enjoy combining typography, color, and layout to turn ideas into clear, engaging designs. My work spans digital and print, from promotional posts and product visuals to editorial layouts and short-form videos.
+        </p>
+      </div>
+
+      <div class="bubble bubble--float bubble--about-1">
+        <p>&ldquo;Good design starts with a clear idea.&rdquo;</p>
+      </div>
+
+      <div class="panel panel--tilt-r about-panel-quote">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <h3 class="panel-heading">My Creative Approach</h3>
+        <ul class="trait-list trait-list--approach">
+          <li><span class="trait-icon">01</span><span><strong>Understand the message</strong> &mdash; Identify the core communication goal, audience, and brand personality.</span></li>
+          <li><span class="trait-icon">02</span><span><strong>Explore visual directions</strong> &mdash; Experiment with dynamic layout, color palette harmony, and expressive typography.</span></li>
+          <li><span class="trait-icon">03</span><span><strong>Refine the details</strong> &mdash; Polish alignment, contrast, visual hierarchy, and precise spacing.</span></li>
+          <li><span class="trait-icon">04</span><span><strong>Deliver consistent designs</strong> &mdash; Ensure unified brand aesthetics across digital feeds, print collateral, and video.</span></li>
+        </ul>
+      </div>
+
+      <div class="panel panel--tilt-l about-panel-list">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <h3 class="panel-heading">Creative Core &amp; Background</h3>
+        <ul class="trait-list">
+          <li><span class="trait-icon">◆</span><span><strong>Location:</strong> Delhi, India</span></li>
+          <li><span class="trait-icon">◆</span><span><strong>Languages:</strong> English and Hindi</span></li>
+          <li><span class="trait-icon">◆</span><span><strong>Experience:</strong> 1+ year crafting brand identity assets, marketing collateral, and social media campaigns</span></li>
+          <li><span class="trait-icon">◆</span><span><strong>Mediums:</strong> Social Media Posts, Advertising Creatives, Editorial Publications, and Reels / Short-Form Video</span></li>
+        </ul>
+      </div>
+
+      <div class="bubble bubble--float bubble--about-2">
+        <p>To be continued in Chapter 2 &rarr;</p>
+      </div>
+
+    </div>
+
+    <a href="#skills" class="chapter-next">Next: Chapter 2 — Creative Toolkit <span class="arrow">&rarr;</span></a>
+  </section>
+
+  <!-- ============ CHAPTER 2 — CREATIVE TOOLKIT ============ -->
+  <section class="chapter chapter--wine" id="skills">
+    <div class="halftone-layer" aria-hidden="true"></div>
+
+    <div class="chapter-head">
+      <span class="chapter-stamp">02</span>
+      <h2 class="chapter-title">My Creative Toolkit</h2>
+      <p class="chapter-kicker">Every designer collects a versatile set of tools and craft powers.</p>
+      <p class="skills-headline">&ldquo;Graphic Designer &middot; Social Media Creatives &middot; Brand Identity &middot; Editorial &amp; Print &middot; Video Editing &middot; Based in Delhi, India&rdquo;</p>
+    </div>
+
+    <!-- Fun animated marquee banner -->
+    <div class="skills-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>ADOBE ILLUSTRATOR</span><span class="dot">★</span>
+        <span>ADOBE PHOTOSHOP</span><span class="dot">★</span>
+        <span>ADOBE INDESIGN</span><span class="dot">★</span>
+        <span>CORELDRAW</span><span class="dot">★</span>
+        <span>CANVA</span><span class="dot">★</span>
+        <span>ADOBE PREMIERE PRO</span><span class="dot">★</span>
+        <span>CAPCUT</span><span class="dot">★</span>
+        <span>BRAND IDENTITY</span><span class="dot">★</span>
+        <span>SOCIAL MEDIA CREATIVES</span><span class="dot">★</span>
+        <span>TYPOGRAPHY</span><span class="dot">★</span>
+        <span>EDITORIAL DESIGN</span><span class="dot">★</span>
+        <span>COLOR THEORY</span><span class="dot">★</span>
+        <span>MARKETING COLLATERAL</span><span class="dot">★</span>
+        <span>VIDEO EDITING</span><span class="dot">★</span>
+        <span>ADOBE ILLUSTRATOR</span><span class="dot">★</span>
+        <span>ADOBE PHOTOSHOP</span><span class="dot">★</span>
+        <span>ADOBE INDESIGN</span><span class="dot">★</span>
+        <span>CORELDRAW</span><span class="dot">★</span>
+        <span>CANVA</span><span class="dot">★</span>
+        <span>ADOBE PREMIERE PRO</span><span class="dot">★</span>
+        <span>CAPCUT</span><span class="dot">★</span>
+        <span>BRAND IDENTITY</span><span class="dot">★</span>
+        <span>SOCIAL MEDIA CREATIVES</span><span class="dot">★</span>
+        <span>TYPOGRAPHY</span><span class="dot">★</span>
+        <span>EDITORIAL DESIGN</span><span class="dot">★</span>
+        <span>COLOR THEORY</span><span class="dot">★</span>
+        <span>MARKETING COLLATERAL</span><span class="dot">★</span>
+        <span>VIDEO EDITING</span><span class="dot">★</span>
+      </div>
+    </div>
+
+    <h3 class="skills-subhead">Design Software &amp; Capabilities</h3>
+
+    <div class="skill-filters" id="skillFilters" role="tablist" aria-label="Filter skills by category">
+      <button class="filter-chip active" data-filter="all" role="tab" aria-selected="true">All</button>
+      <button class="filter-chip" data-filter="graphic" role="tab" aria-selected="false">Graphic Design</button>
+      <button class="filter-chip" data-filter="print" role="tab" aria-selected="false">Editorial &amp; Print</button>
+      <button class="filter-chip" data-filter="video" role="tab" aria-selected="false">Video Editing</button>
+    </div>
+
+    <ul class="skill-grid" id="skillGrid">
+      <!-- Verified Software Tools -->
+      <li class="skill-badge" data-category="graphic print"><span class="badge-icon">◆</span>Adobe Illustrator</li>
+      <li class="skill-badge" data-category="graphic print video"><span class="badge-icon">◆</span>Adobe Photoshop</li>
+      <li class="skill-badge" data-category="graphic print"><span class="badge-icon">◆</span>Adobe InDesign</li>
+      <li class="skill-badge" data-category="graphic print"><span class="badge-icon">◆</span>CorelDRAW</li>
+      <li class="skill-badge" data-category="graphic video"><span class="badge-icon">◆</span>Canva</li>
+      <li class="skill-badge" data-category="video"><span class="badge-icon">✦</span>Adobe Premiere Pro</li>
+      <li class="skill-badge" data-category="video"><span class="badge-icon">✦</span>CapCut</li>
+
+      <!-- Verified Design Capabilities -->
+      <li class="skill-badge" data-category="graphic"><span class="badge-icon">▲</span>Social Media Design</li>
+      <li class="skill-badge" data-category="graphic"><span class="badge-icon">▲</span>Brand Identity &amp; Logo Design</li>
+      <li class="skill-badge" data-category="graphic print"><span class="badge-icon">▲</span>Marketing Collateral</li>
+      <li class="skill-badge" data-category="graphic print"><span class="badge-icon">●</span>Typography</li>
+      <li class="skill-badge" data-category="graphic print"><span class="badge-icon">●</span>Layout Design</li>
+      <li class="skill-badge" data-category="graphic print"><span class="badge-icon">●</span>Color Theory</li>
+      <li class="skill-badge" data-category="graphic print"><span class="badge-icon">■</span>Print &amp; Digital Design</li>
+      <li class="skill-badge" data-category="graphic"><span class="badge-icon">■</span>Visual Branding</li>
+      <li class="skill-badge" data-category="graphic video"><span class="badge-icon">✦</span>Content Creation</li>
+      <li class="skill-badge" data-category="video"><span class="badge-icon">✦</span>Video Editing</li>
+    </ul>
+
+    <div class="bubble bubble--float bubble--skills" id="skillsBubble">
+      <p>Tap a category &mdash; creative powers sort themselves!</p>
+    </div>
+
+    <h3 class="skills-subhead skills-subhead--spaced">Creative Foundations</h3>
+
+    <div class="beyond-grid">
+      <div class="panel panel--tilt-l beyond-panel">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <h4 class="panel-heading">Professional Strengths</h4>
+        <ul class="trait-list">
+          <li><span class="trait-icon">◆</span>Visual Problem Solving</li>
+          <li><span class="trait-icon">◆</span>Brand Consistency &amp; Guidelines</li>
+          <li><span class="trait-icon">◆</span>Detail &amp; Composition Precision</li>
+          <li><span class="trait-icon">◆</span>Deadline &amp; Workflow Prioritization</li>
+          <li><span class="trait-icon">◆</span>Creative Team Collaboration</li>
+        </ul>
+      </div>
+
+      <div class="panel panel--tilt-r beyond-panel">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <h4 class="panel-heading">Design Principles</h4>
+        <ul class="trait-list">
+          <li><span class="trait-icon">✦</span>Typographic Hierarchy &amp; Rhythm</li>
+          <li><span class="trait-icon">✦</span>Harmonious Color Systems</li>
+          <li><span class="trait-icon">✦</span>Audience-Centered Visuals</li>
+          <li><span class="trait-icon">✦</span>Clean Grid &amp; Spatial Balance</li>
+          <li><span class="trait-icon">✦</span>Cross-Platform Asset Readiness</li>
+        </ul>
+      </div>
+
+      <div class="panel panel--tilt-l beyond-panel">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <h4 class="panel-heading">Languages &amp; Output</h4>
+        <ul class="trait-list">
+          <li><span class="trait-icon">●</span>English &amp; Hindi Fluency</li>
+          <li><span class="trait-icon">●</span>Campaign Banners &amp; Social Feeds</li>
+          <li><span class="trait-icon">●</span>Brochures &amp; Presentation Decks</li>
+          <li><span class="trait-icon">●</span>Multi-Page Editorial Layouts</li>
+          <li><span class="trait-icon">●</span>Short-Form Social Reels</li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#projects" class="chapter-next">Next: Chapter 3 — Selected Work <span class="arrow">&rarr;</span></a>
+  </section>
+
+  <!-- ============ CHAPTER 3 — SELECTED WORK ============ -->
+  <section class="chapter chapter--beige" id="projects">
+    <div class="halftone-layer halftone-layer--dark" aria-hidden="true"></div>
+
+    <div class="chapter-head">
+      <span class="chapter-stamp">03</span>
+      <h2 class="chapter-title">Selected Work</h2>
+      <p class="chapter-kicker">Every design is crafted with intention and distinct visual narrative.</p>
+    </div>
+
+    <!-- Gallery filter chips -->
+    <div class="gallery-filters" id="galleryFilters" role="tablist" aria-label="Filter portfolio gallery by category">
+      <button class="filter-chip filter-chip--dark active" data-gallery-filter="all" role="tab" aria-selected="true">All</button>
+      <button class="filter-chip filter-chip--dark" data-gallery-filter="advertising" role="tab" aria-selected="false">Product Advertising</button>
+      <button class="filter-chip filter-chip--dark" data-gallery-filter="social" role="tab" aria-selected="false">Social Media</button>
+      <button class="filter-chip filter-chip--dark" data-gallery-filter="editorial" role="tab" aria-selected="false">Editorial &amp; Covers</button>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+
+      <!-- Work 1 -->
+      <article class="panel panel--tilt-l work-card" data-category="advertising" data-index="0">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №01</span>
+          <span class="issue-genre">Product Advertising</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Sound Beyond Limits full image">
+          <img src="assets/projects/sound-beyond-limits.jpg" alt="Sound Beyond Limits — Headphone promotional concept" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Sound Beyond Limits</h3>
+          <p class="issue-desc">A headphone promotional concept combining bold typography, dramatic scenery, and a clear product focus.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="0" aria-label="View design for Sound Beyond Limits">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 2 -->
+      <article class="panel panel--tilt-r work-card" data-category="advertising" data-index="1">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №02</span>
+          <span class="issue-genre">Beauty &amp; Skincare</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View A Touch of Nature full image">
+          <img src="assets/projects/a-touch-of-nature.jpg" alt="A Touch of Nature — Skincare advertising concept" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">A Touch of Nature</h3>
+          <p class="issue-desc">A skincare advertising concept using warm lighting, botanical details, and an elegant product-led layout.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="1" aria-label="View design for A Touch of Nature">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 3 -->
+      <article class="panel panel--tilt-l work-card" data-category="advertising" data-index="2">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №03</span>
+          <span class="issue-genre">Beauty &amp; Skincare</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Strawberry Lip Balm full image">
+          <img src="assets/projects/strawberry-lip-balm.jpg" alt="Strawberry Lip Balm — Cosmetic campaign creative" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Strawberry Lip Balm</h3>
+          <p class="issue-desc">A vibrant lip balm creative combining strawberry imagery, expressive typography, and a cohesive red palette.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="2" aria-label="View design for Strawberry Lip Balm">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 4 -->
+      <article class="panel panel--tilt-r work-card" data-category="advertising" data-index="3">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №04</span>
+          <span class="issue-genre">Food &amp; Beverage</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Berry Bliss full image">
+          <img src="assets/projects/berry-bliss.jpg" alt="Berry Bliss — Smoothie promotional concept" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Berry Bliss</h3>
+          <p class="issue-desc">A smoothie promotional concept with dynamic fruit imagery, rich berry colors, and playful typography.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="3" aria-label="View design for Berry Bliss">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 5 -->
+      <article class="panel panel--tilt-l work-card" data-category="editorial" data-index="4">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №05</span>
+          <span class="issue-genre">Book Cover</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View The Quiet Power Within full image">
+          <img src="assets/projects/the-quiet-power-within.jpg" alt="The Quiet Power Within — Book cover concept" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">The Quiet Power Within</h3>
+          <p class="issue-desc">A book cover concept using a dramatic portrait, restrained colors, and strong typographic hierarchy.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="4" aria-label="View design for The Quiet Power Within">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 6 -->
+      <article class="panel panel--tilt-r work-card" data-category="advertising" data-index="5">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №06</span>
+          <span class="issue-genre">Fashion &amp; Accessories</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Carry Your Story full image">
+          <img src="assets/projects/carry-your-story.jpg" alt="Carry Your Story — Handbag promotional creative" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Carry Your Story</h3>
+          <p class="issue-desc">A handbag promotional creative balancing soft colors, elegant typography, and prominent product presentation.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="5" aria-label="View design for Carry Your Story">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 7 -->
+      <article class="panel panel--tilt-l work-card" data-category="social" data-index="6">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №07</span>
+          <span class="issue-genre">Social Media</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Janmashtami Celebration full image">
+          <img src="assets/projects/janmashtami-brand-celebration.jpg" alt="Janmashtami Brand Celebration creative for Beta Soft Technology" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Janmashtami — Brand Celebration</h3>
+          <p class="issue-desc">A festive social media creative for Beta Soft Technology combining Krishna-inspired imagery with company branding.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="6" aria-label="View design for Janmashtami Brand Celebration">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 8 -->
+      <article class="panel panel--tilt-r work-card" data-category="social" data-index="7">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №08</span>
+          <span class="issue-genre">Social Media</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Ambedkar Jayanti Tribute full image">
+          <img src="assets/projects/ambedkar-jayanti-tribute.jpg" alt="Ambedkar Jayanti Tribute creative for Beta Soft Technology" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Ambedkar Jayanti — Tribute Creative</h3>
+          <p class="issue-desc">A commemorative social media design for Beta Soft Technology using portrait imagery and bold tribute typography.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="7" aria-label="View design for Ambedkar Jayanti Tribute">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 9 -->
+      <article class="panel panel--tilt-l work-card" data-category="editorial" data-index="8">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №09</span>
+          <span class="issue-genre">Editorial Design</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Women's Wellness Magazine cover full image">
+          <img src="assets/projects/womens-wellness-cover.jpg" alt="Women’s Wellness — Multi-page editorial magazine cover" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Cover 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Women’s Wellness — Editorial Design</h3>
+          <p class="issue-desc">A multi-page wellness magazine featuring cover design, article layouts, imagery, and structured editorial typography.</p>
+          <div class="work-actions work-actions--dual">
+            <button type="button" class="btn-design-view" data-index="8" aria-label="View cover design for Women's Wellness Magazine">
+              View Cover <span class="arrow">&rarr;</span>
+            </button>
+            <a href="assets/projects/womens-wellness-magazine.pdf" target="_blank" rel="noopener" class="btn-design-view btn-design-view--outline" aria-label="Open Women's Wellness multi-page magazine PDF in a new tab">
+              View Magazine (PDF) <span class="arrow">&nearr;</span>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 10 -->
+      <article class="panel panel--tilt-r work-card" data-category="advertising" data-index="9">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №10</span>
+          <span class="issue-genre">Product Advertising</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Elynn Apothecary Signature Scent full image">
+          <img src="assets/projects/elynn-signature-scent.jpg" alt="Elynn Apothecary — Find Your Signature Scent discovery set creative" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Elynn Apothecary &mdash; Signature Scent</h3>
+          <p class="issue-desc">A luxury fragrance discovery set promotional creative combining warm organic textures, botanical accents, and elegant cosmetic typography.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="9" aria-label="View design for Elynn Apothecary Signature Scent">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 11 (Grouped Multi-Banner Campaign) -->
+      <article class="panel panel--tilt-l work-card" data-category="social" data-index="10">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №11</span>
+          <span class="issue-genre">Social Media &middot; 4 Banners</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Duke Training Centre Certification Campaign banners">
+          <img src="assets/projects/duke-welding-inspection-banner.png" alt="Duke Training Centre — Certification Campaign course banners" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Campaign (4) 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Duke Training Centre &mdash; Certification Campaign</h3>
+          <p class="issue-desc">A multi-asset marketing and course promotion campaign for Duke Training Centre, featuring industry-aligned technical certifications, bold badging, and dynamic industrial imagery.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="10" aria-label="View Duke Training Centre multi-asset campaign">
+              View Campaign (4 Assets) <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 12 (Infinity Packaging Solutions - 2 Banners) -->
+      <article class="panel panel--tilt-r work-card" data-category="advertising" data-index="11">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №12</span>
+          <span class="issue-genre">Packaging &middot; 2 Banners</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Infinity Packaging Solutions banners">
+          <img src="assets/projects/infinity-packaging-materials.jpg" alt="Infinity Packaging Solutions — Brand & Packaging Campaign" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Campaign (2) 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Infinity Packaging &mdash; Brand &amp; Packaging</h3>
+          <p class="issue-desc">A multi-banner marketing campaign highlighting brand elevation, structural packaging materials, and memorable luxury unboxing experiences.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="11" aria-label="View Infinity Packaging multi-asset campaign">
+              View Campaign (2 Assets) <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 13 (KlugKlug Influencer Campaign) -->
+      <article class="panel panel--tilt-l work-card" data-category="social" data-index="12">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №13</span>
+          <span class="issue-genre">Social Media &middot; Promo</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View KlugKlug Influencer Campaign full image">
+          <img src="assets/projects/klugklug-influencer-offer.jpg" alt="KlugKlug — Influencer Intelligence Campaign creative" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">KlugKlug &mdash; Influencer Intelligence</h3>
+          <p class="issue-desc">A high-impact promotional campaign creative combining 3D gift elements, voucher coupon badges, and high-conversion marketing typography.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="12" aria-label="View design for KlugKlug Influencer Campaign">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 14 (Magic Infomedia Data Scraping) -->
+      <article class="panel panel--tilt-r work-card" data-category="social" data-index="13">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №14</span>
+          <span class="issue-genre">B2B Tech Marketing</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Magic Infomedia Data Scraping Creative full image">
+          <img src="assets/projects/magic-infomedia-data-scraping.jpg" alt="Magic Infomedia — Data Scraping Services creative" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Magic Infomedia &mdash; Data Scraping</h3>
+          <p class="issue-desc">A modern B2B tech promotional design highlighting automated web data extraction, multiple export formats, and clear lead-generation CTAs.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="13" aria-label="View design for Magic Infomedia Data Scraping">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Work 15 (Tagore Jayanti Tribute) -->
+      <article class="panel panel--tilt-l work-card" data-category="social" data-index="14">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <header class="issue-strip">
+          <span class="issue-number">Issue №15</span>
+          <span class="issue-genre">Social Media &middot; Tribute</span>
+        </header>
+        <div class="work-preview" role="button" tabindex="0" aria-label="View Rabindranath Tagore Jayanti Tribute Creative full image">
+          <img src="assets/projects/tagore-jayanti-tribute.jpg" alt="Team Magento — Rabindranath Tagore Jayanti Tribute Creative" loading="lazy">
+          <div class="preview-overlay">
+            <span class="preview-cta">View Design 🔍</span>
+          </div>
+        </div>
+        <div class="work-content">
+          <h3 class="issue-title">Rabindranath Tagore Jayanti</h3>
+          <p class="issue-desc">A commemorative tribute design for Team Magento celebrating Rabindranath Tagore Jayanti, pairing artistic portrait illustration with an inspiring literature quote.</p>
+          <div class="work-actions">
+            <button type="button" class="btn-design-view" data-index="14" aria-label="View design for Tagore Jayanti Tribute">
+              View Design <span class="arrow">&rarr;</span>
+            </button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <a href="#timeline" class="chapter-next">Next: Chapter 4 — Journey <span class="arrow">&rarr;</span></a>
+  </section>
+
+  <!-- ============ CHAPTER 4 — MY JOURNEY ============ -->
+  <section class="chapter chapter--wine" id="timeline">
+    <div class="halftone-layer" aria-hidden="true"></div>
+
+    <div class="chapter-head">
+      <span class="chapter-stamp">04</span>
+      <h2 class="chapter-title">My Journey</h2>
+      <p class="chapter-kicker">Professional experience, self-initiated projects, education, and credentials.</p>
+    </div>
+
+    <div class="timeline-track">
+      <div class="timeline-line" aria-hidden="true"></div>
+
+      <!-- Experience: Beta Soft Technology -->
+      <div class="timeline-entry timeline-entry--left">
+        <div class="timeline-node" aria-hidden="true"></div>
+        <div class="panel timeline-card">
+          <div class="panel-tape" aria-hidden="true"></div>
+          <span class="timeline-tag timeline-tag--exp">Experience</span>
+          <h3 class="timeline-role">Graphic Designer</h3>
+          <p class="timeline-org">Beta Soft Technology &middot; Delhi, India</p>
+          <p class="timeline-dates">September 2025 &ndash; Present</p>
+          <ul class="timeline-bullets">
+            <li>Create social media creatives, banners, and marketing collateral across platforms.</li>
+            <li>Develop brand assets, brochures, presentation decks, and maintain visual consistency.</li>
+            <li>Collaborate with marketing and content teams to translate campaign briefs into finished creative assets.</li>
+            <li>Manage multiple creative requests and delivery deadlines in high-turnaround environments.</li>
+          </ul>
+          <ul class="issue-tech">
+            <li>Adobe Illustrator</li><li>Adobe Photoshop</li><li>InDesign</li><li>Canva</li><li>Brand Identity</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Project: Social Media & Branding Design -->
+      <div class="timeline-entry timeline-entry--right">
+        <div class="timeline-node" aria-hidden="true"></div>
+        <div class="panel timeline-card">
+          <div class="panel-tape" aria-hidden="true"></div>
+          <span class="timeline-tag timeline-tag--proj">Projects</span>
+          <h3 class="timeline-role">Social Media &amp; Branding Design</h3>
+          <p class="timeline-org">Self-Initiated / Academic Project</p>
+          <p class="timeline-dates">November 2024 &ndash; April 2025</p>
+          <ul class="timeline-bullets">
+            <li>Create social media designs, visual branding concepts, and promotional layouts.</li>
+            <li>Explore logo variations, comprehensive color palettes, and typographic hierarchies.</li>
+            <li>Design cohesive branding kits for diverse mock client scenarios and campaigns.</li>
+          </ul>
+          <ul class="issue-tech">
+            <li>Canva</li><li>Photoshop</li><li>Illustrator</li><li>Visual Branding</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Experience: Freelance Video Editing -->
+      <div class="timeline-entry timeline-entry--left">
+        <div class="timeline-node" aria-hidden="true"></div>
+        <div class="panel timeline-card">
+          <div class="panel-tape" aria-hidden="true"></div>
+          <span class="timeline-tag timeline-tag--free">Freelance</span>
+          <h3 class="timeline-role">Freelance Video Editing</h3>
+          <p class="timeline-org">Freelance Client Projects</p>
+          <p class="timeline-dates">Freelance Creative Work</p>
+          <ul class="timeline-bullets">
+            <li>Edit social media reels and promotional videos for short-form digital channels.</li>
+            <li>Work on pacing, transitions, text overlays, and music synchronization for platform-ready delivery.</li>
+          </ul>
+          <ul class="issue-tech">
+            <li>Adobe Premiere Pro</li><li>CapCut</li><li>Canva</li><li>Reels &amp; Promo Videos</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Education: MBA -->
+      <div class="timeline-entry timeline-entry--right">
+        <div class="timeline-node" aria-hidden="true"></div>
+        <div class="panel timeline-card">
+          <div class="panel-tape" aria-hidden="true"></div>
+          <span class="timeline-tag timeline-tag--edu">Education</span>
+          <h3 class="timeline-role">MBA &mdash; HR &amp; Marketing</h3>
+          <p class="timeline-org">Swami Vivekanand Subharti University</p>
+          <p class="timeline-dates">2024</p>
+          <p class="timeline-desc">Master of Business Administration specializing in Human Resources and Marketing, combining strategic marketing insight with visual communication.</p>
+        </div>
+      </div>
+
+      <!-- Education: B.Com -->
+      <div class="timeline-entry timeline-entry--left">
+        <div class="timeline-node" aria-hidden="true"></div>
+        <div class="panel timeline-card">
+          <div class="panel-tape" aria-hidden="true"></div>
+          <span class="timeline-tag timeline-tag--edu">Education</span>
+          <h3 class="timeline-role">B.Com (Hons)</h3>
+          <p class="timeline-org">Delhi University, Delhi</p>
+          <p class="timeline-dates">2020</p>
+          <p class="timeline-desc">Bachelor of Commerce (Honours) with a focus on commerce, business structure, and analytical communication.</p>
+        </div>
+      </div>
+
+      <!-- Certification -->
+      <div class="timeline-entry timeline-entry--right">
+        <div class="timeline-node" aria-hidden="true"></div>
+        <div class="panel timeline-card">
+          <div class="panel-tape" aria-hidden="true"></div>
+          <span class="timeline-tag timeline-tag--cert">Certification</span>
+          <h3 class="timeline-role">Graphic Designing Certification</h3>
+          <p class="timeline-org">Professional Design Certification</p>
+          <p class="timeline-dates">Graphic Design Practice</p>
+          <p class="timeline-desc">Focused training covering core visual design fundamentals, graphic layout, vector creation, digital photo manipulation, and print production workflows.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#resume" class="chapter-next">Next: Chapter 5 — Resume <span class="arrow">&rarr;</span></a>
+  </section>
+
+  <!-- ============ CHAPTER 5 — RESUME ============ -->
+  <section class="chapter chapter--beige" id="resume">
+    <div class="halftone-layer halftone-layer--dark" aria-hidden="true"></div>
+
+    <div class="chapter-head">
+      <span class="chapter-stamp">05</span>
+      <h2 class="chapter-title">Resume</h2>
+      <p class="chapter-kicker">The condensed edition &mdash; concise summary of role, tools, and experience.</p>
+    </div>
+
+    <div class="resume-wrap">
+      <div class="panel resume-card">
+        <div class="panel-tape" aria-hidden="true"></div>
+
+        <div class="resume-top">
+          <div>
+            <h3 class="resume-name">Shivani Jain</h3>
+            <p class="resume-role">Graphic Designer &middot; Visual Storyteller</p>
+          </div>
+
+          <a class="btn-begin btn-begin--sm resume-download" href="assets/Shivani_Jain_Graphic_Designer_Resume.docx" download="Shivani_Jain_Graphic_Designer_Resume.docx">
+            Download Resume (.DOCX) <span class="arrow">&darr;</span>
+          </a>
+        </div>
+
+        <p class="resume-contact">
+          Delhi, India &middot;
+          <a href="mailto:jshivani492@gmail.com">jshivani492@gmail.com</a> &middot;
+          <a href="tel:+918076945887">+91 8076945887</a> &middot;
+          <span>English &amp; Hindi</span>
+        </p>
+
+        <div class="resume-grid">
+          <div class="resume-block">
+            <h4 class="panel-heading">Experience</h4>
+            <p class="resume-line"><strong>Graphic Designer</strong><br>Beta Soft Technology &middot; Sep 2025 &ndash; Present | Delhi, India</p>
+            <p class="resume-line"><strong>Social Media &amp; Branding Design</strong><br>Self-Initiated / Academic Project &middot; Nov 2024 &ndash; Apr 2025</p>
+            <p class="resume-line"><strong>Freelance Video Editing</strong><br>Social media reels &amp; promotional videos</p>
+          </div>
+
+          <div class="resume-block">
+            <h4 class="panel-heading">Education &amp; Credentials</h4>
+            <p class="resume-line"><strong>MBA &mdash; HR &amp; Marketing</strong><br>Swami Vivekanand Subharti University &middot; 2024</p>
+            <p class="resume-line"><strong>B.Com (Hons)</strong><br>Delhi University &middot; 2020</p>
+            <p class="resume-line"><strong>Graphic Designing Certification</strong></p>
+          </div>
+
+          <div class="resume-block resume-block--full">
+            <h4 class="panel-heading">Software &amp; Design Skills</h4>
+            <ul class="issue-tech">
+              <li>Adobe Illustrator</li>
+              <li>Adobe Photoshop</li>
+              <li>Adobe InDesign</li>
+              <li>CorelDRAW</li>
+              <li>Canva</li>
+              <li>Adobe Premiere Pro</li>
+              <li>CapCut</li>
+              <li>Social Media Design</li>
+              <li>Brand Identity &amp; Logo Design</li>
+              <li>Marketing Collateral</li>
+              <li>Typography</li>
+              <li>Layout Design</li>
+              <li>Color Theory</li>
+              <li>Print &amp; Digital Design</li>
+              <li>Visual Branding</li>
+              <li>Content Creation</li>
+              <li>Video Editing</li>
+            </ul>
+          </div>
+
+          <div class="resume-block resume-block--full">
+            <h4 class="panel-heading">Featured Portfolio Concepts</h4>
+            <p class="resume-line">Sound Beyond Limits &middot; A Touch of Nature &middot; Strawberry Lip Balm &middot; Berry Bliss &middot; The Quiet Power Within &middot; Carry Your Story &middot; Janmashtami Brand Celebration &middot; Ambedkar Jayanti Tribute &middot; Women’s Wellness Editorial Magazine &middot; Elynn Apothecary Signature Scent &middot; Duke Training Centre Campaign</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#contact" class="chapter-next">Next: Chapter 6 — Contact <span class="arrow">&rarr;</span></a>
+  </section>
+
+  <!-- ============ CHAPTER 6 — CONTACT ============ -->
+  <section class="chapter chapter--wine" id="contact">
+    <div class="halftone-layer" aria-hidden="true"></div>
+
+    <div class="chapter-head">
+      <span class="chapter-stamp">06</span>
+      <h2 class="chapter-title">Let’s Create Something</h2>
+      <p class="chapter-kicker">Every great visual begins with a conversation.</p>
+    </div>
+
+    <div class="contact-deck">
+      <div class="panel contact-intro-panel">
+        <div class="panel-tape" aria-hidden="true"></div>
+        <h3 class="contact-hero-heading">Have an idea? Let’s bring it to life.</h3>
+        <p class="contact-lead">Get in touch to discuss graphic design, social media creatives, branding, or video editing.</p>
+
+        <div class="contact-action-cards">
+
+          <!-- Email Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon" aria-hidden="true">&#9993;</div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Email Me</span>
+              <a href="mailto:jshivani492@gmail.com" class="contact-card-val">jshivani492@gmail.com</a>
+            </div>
+            <a href="mailto:jshivani492@gmail.com" class="btn-begin btn-begin--sm contact-action-btn">
+              Email Me <span class="arrow">&rarr;</span>
+            </a>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon" aria-hidden="true">&#9742;</div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Call / WhatsApp</span>
+              <a href="tel:+918076945887" class="contact-card-val">+91 8076945887</a>
+            </div>
+            <a href="tel:+918076945887" class="btn-begin btn-begin--sm contact-action-btn">
+              Call Me <span class="arrow">&rarr;</span>
+            </a>
+          </div>
+
+          <!-- Location & Details Card -->
+          <div class="contact-card">
+            <div class="contact-card-icon" aria-hidden="true">&#9873;</div>
+            <div class="contact-card-info">
+              <span class="contact-card-label">Location &amp; Collaboration</span>
+              <p class="contact-card-text">Delhi, India &middot; Open for Full-Time, Contract, &amp; Freelance Opportunities</p>
+            </div>
+            <div class="contact-lang-badge">English &amp; Hindi</div>
+          </div>
+
+        </div>
+
+        <div class="bubble bubble--float bubble--contact in-view">
+          <p>Let’s make something memorable together!</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="the-end">&mdash; The End, for now &mdash;</p>
+  </section>
+
+</main>
+
+<!-- ============ ACCESSIBLE MULTI-PAGE DESIGN LIGHTBOX ============ -->
+<div class="comic-lightbox" id="comicLightbox" role="dialog" aria-modal="true" aria-label="Design Artwork Lightbox" aria-hidden="true">
+  <div class="lightbox-overlay" id="lightboxOverlay"></div>
+  <div class="lightbox-container" id="lightboxContainer">
+    <div class="lightbox-header">
+      <div class="lightbox-tags">
+        <span class="lightbox-issue" id="lightboxIssue">Issue №01</span>
+        <span class="lightbox-category" id="lightboxCategory">Product Advertising</span>
+        <span class="lightbox-page-counter" id="lightboxPageCounter"></span>
+      </div>
+      <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox (Escape)">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="lightbox-view">
+      <button type="button" class="lightbox-nav lightbox-nav--prev" id="lightboxPrev" aria-label="Previous image (Left Arrow)">
+        <span aria-hidden="true">&#8249;</span>
+      </button>
+      <div class="lightbox-image-stage">
+        <img src="" alt="" class="lightbox-img" id="lightboxImg">
+      </div>
+      <button type="button" class="lightbox-nav lightbox-nav--next" id="lightboxNext" aria-label="Next image (Right Arrow)">
+        <span aria-hidden="true">&#8250;</span>
+      </button>
+    </div>
+
+    <!-- Multi-page thumbnail strip for grouped galleries -->
+    <div class="lightbox-thumb-strip" id="lightboxThumbStrip" aria-label="Project Page Thumbnails"></div>
+
+    <div class="lightbox-footer">
+      <div class="lightbox-details">
+        <h3 class="lightbox-title" id="lightboxTitle">Design Title</h3>
+        <p class="lightbox-desc" id="lightboxDesc">Artwork description.</p>
+      </div>
+      <div class="lightbox-extra-action" id="lightboxExtraAction"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ SECRET EASTER EGG BONUS PANEL (PRESS 'C') ============ -->
+<div class="secret-page" id="secretPage" role="dialog" aria-modal="true" aria-label="Secret Creative Panel" aria-hidden="true">
+  <div class="secret-inner">
+    <p class="secret-stamp">BONUS CANVAS &mdash; UNLOCKED</p>
+    <p>You found the hidden canvas! Behind every memorable design is curiosity, iteration, and attention to every detail. ✦</p>
+    <button class="btn-begin btn-begin--sm" id="closeSecret">Close</button>
+  </div>
+</div>
+
+<!-- ============ FOOTER WITH CREATOR ATTRIBUTION ============ -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <p class="footer-copyright">&copy; <span id="copyrightYear">2026</span> Shivani Jain. Graphic Designer &middot; Visual Storyteller.</p>
+    <a href="https://saifskd.netlify.app/" target="_blank" rel="noopener" class="creator-badge" aria-label="Portfolio created by Saif">
+      <img src="images/saif-icon.png" alt="Saif" class="creator-icon">
+      <span class="creator-text">Created by <strong>Saif</strong></span>
+    </a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
