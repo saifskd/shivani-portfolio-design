@@ -538,4 +538,12 @@ document.addEventListener('DOMContentLoaded', () => {
     copyYear.textContent = new Date().getFullYear();
   }
 
+  /* ---------- LinkedIn & Coming Soon Links Handler ---------- */
+  document.querySelectorAll('.link-coming-soon, [data-coming-soon="true"]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+    });
+  });
+
 });
